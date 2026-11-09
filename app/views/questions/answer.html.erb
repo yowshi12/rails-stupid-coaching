@@ -1,0 +1,15 @@
+
+
+<blockquote>
+  <%= @user_question %>
+  <p>-You</p>
+</blockquote>
+
+<blockquote>
+  <%= @coach_answer %>
+  <p>Your Coach</p>
+</blockquote>
+
+<%= link_to ask_path, class: "btn btn-success"  do %>
+<i class="fa-solid fa-square-caret-left"></i>
+<% end %>

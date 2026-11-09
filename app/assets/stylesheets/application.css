@@ -8,3 +8,20 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+.header {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.container{
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C2A68C;
+}
